@@ -1,0 +1,125 @@
+body {
+    background-color: #E7DEC8;
+    font-family: 'malgun gothic';
+    color: #30475E;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    color: #30475E;
+    font-weight: bold;
+}
+
+.navbar-brand:visited {
+    color: #30475E;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #30475E;
+    font-weight: bold;
+}
+
+.navigatiebarlink {
+    color: #30475E;
+    text-decoration: none;
+}
+
+.navigatiebarlink:visited {
+    color: #30475E;
+    font-weight: bold;
+}
+
+.navigatiebarlink:hover {
+    color: #30475E;
+    font-weight: bold;
+}
+
+.actief {
+    color: #30475E;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.scrollspy {
+    background-color: #CBAF87;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.scrollspy-example-2 {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.scrollspylink {
+    color: #30475E;
+}
+
+.scrollspylink:visited {
+    color: #30475E;
+}
+
+.scrollspylink:hover {
+    color: #30475E;
+}
+
+.active {
+    background-color: #30475E !important;
+    color: #7E8A97 !important;
+}
+
+.afbeelding1 {
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.swiper {
+    background-color: #CBAF87;
+    height: 400px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.swiper-slide {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.afbeelding2 {
+    height: 200px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #30475E;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #30475E;
+}
+
+
+.footer {
+    background-color: #CBAF87;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer>div {
+    padding: 5px;
+}
+
+.footer>div a {
+    color: #30475E;
+}
+

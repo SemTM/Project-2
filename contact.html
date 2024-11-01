@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sem Jans">
+  <title>Contact</title>
+  <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./css/stijl_contact.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md" style="background-color: #CBAF87;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Sem Jans</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link navigatiebarlink" href="./index.html">Start</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navigatiebarlink" href="./cv.html">Cv</a>
+          <li class="nav-item">
+            <a class="nav-link navigatiebarlink" href="./interesses.html">Interesses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navigatiebarlink actief" aria-current="page" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container contactinformatie">
+    <h3>Contactinformatie</h3>
+    <p>Voornaam: Sem<br>
+      Naam: Jans<br>
+      Studierichting: Programmeren (werktraject)<br>
+      Woonplaats: Beverlo (België)<br>
+      E-mailadres: r1041041@student.thomasmore.be
+  </div>
+  <div class="container contactformulier">
+    <h3>Contactformulier</h3>
+  </div>
+  <form class="container formulier">
+    <div class="row">
+      <div class="form-floating mb-3 col-md-6">
+        <input type="text" class="form-control" id="naam" placeholder="naam">
+        <label for="naam">Naam</label>
+      </div>
+      <div class="form-floating mb-3 col-md-6">
+        <input type="text" class="form-control" id="voornaam" placeholder="voornaam">
+        <label for="voornaam">Voornaam</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-floating mb-3 col-md-8">
+        <input type="email" class="form-control" id="e-mail" placeholder="voornaam" required>
+        <label for="e-mail">E-mailadres</label>
+      </div>
+      <div class="mb-3 col-md-4">
+        <select class="form-select" size="2" multiple aria-label="Interesse in de skill">
+          <option selected>Interesse in de skill(s):</option>
+          <option value="1">C#</option>
+          <option value="2">SQL</option>
+          <option value="3">HTML en CSS</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-floating mb-3 col-md-10">
+        <textarea class="form-control" placeholder="Stel uw vraag hier" id="tekstvak"></textarea>
+        <label for="tekstvak">Vraag</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <button type="submit" class="btn">Verzenden</button>
+      </div>
+    </div>
+  </form>
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="col-md-3">&copy; 2024 Sem Jans. Alle rechten voorbehouden</div>
+      <div class="col-md"></div>
+      <div class="col-md-3">Sociale media: <a href="https://www.facebook.com/sem.jans.583" target="_blank"><i
+            class="bi-facebook"></i></a> <a href="https://www.instagram.com/sem.jns/" target="_blank"><i
+            class="bi-instagram"></i></a></div>
+    </div>
+  </div>
+  <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

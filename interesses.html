@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sem Jans">
+  <title>Interesses</title>
+  <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./css/stijl_interesses.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md" style="background-color: #CBAF87;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Sem Jans</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link navigatiebarlink" href="./index.html">Start</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navigatiebarlink" href="./cv.html">Cv</a>
+          <li class="nav-item">
+            <a class="nav-link navigatiebarlink actief" aria-current="page" href="./interesses.html">Interesses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navigatiebarlink" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container titeleninleiding">
+    <h3>Interesses</h3>
+    <p>Hieronder kom je wat meer te weten over mijn vrijetijdsbestedingen.</p>
+  </div>
+  <div class="container bootstrapcarousel">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/interesses_carousel_fitness.jpg" class="d-block w-100" alt="Fitness">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Consistency is key met fitness</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/interesses_carousel_er.jpg" class="d-block w-100" alt="Elden Ring">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Elden Ring: een van mijn favoriete games</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/interesses_carousel_nz.jpg" class="d-block w-100" alt="Nieuw-Zeeland">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Nieuw-Zeeland: het walhalla voor natuurliefhebbers</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/interesses_carousel_tp.jpg" class="d-block w-100" alt="The Planets">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Een van mijn favoriete documentaires is The Planets</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/interesses_carousel_ac.jpg" class="d-block w-100" alt="Ancient civilisations">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Oude beschavingen zoals het oude Egypte fascineren me</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/interesses_carousel_f1.jpg" class="d-block w-100 verstappen" alt="F1">
+          <div class="carousel-caption d-none d-md-block verstappentekst">
+            <p>In 2021<br>woonde<br>ik de race in<br>Spa bij</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container bootstrapaccordion">
+    <div class="accordion" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            Fitness
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">Een gezonde geest heeft een gezond lichaam nodig (en vice versa). Momenteel fitness ik tweemaal per week. 
+            Een dag train ik mijn bovenlichaam en de andere dag mijn onderlichaam. Zeker even belangrijk dan consistent trainen 
+            is je lichaam van de juiste voeding voorzien. Mijn huidig voedingsschema bestaat voornamelijk uit gezonde vetten, 
+            complete eiwitten en gezonde koolhydraten. Natuurlijk trakteer ik mezelf ook op een à twee cheatmeals per week, 
+            want anders hou je zo’n streng voedingsschema niet vol.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Gamen
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">Gamen doe ik al van kinds af aan. Dit begon met de originele GameBoy en met games zoals Pokémon Red en Blue 
+            (Waar is de tijd?). Momenteel speel ik vooral de Soulsborne games op PC. Met “Soulsborne” bedoel ik de reeks games 
+            die gemaakt zijn geweest door de Japanse ontwikkelaar FromSoftware: de Dark Souls-serie, Elden ring, Armored Core enzovoort.
+            Deze games staan bekend voor de prachtige werelden die je moet verkennen (met bijhorende magnifieke soundtracks), 
+            hun boeiende lore en hun hoge moeilijkheidsgraad.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            De natuur, de kosmos en geschiedenis
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">Ik ben niet alleen gefascineerd door virtuele werelden maar ook door de buitenwereld. Ik hou ervan om naar documentaires 
+            te kijken of podcasts te luisteren die gaan over de natuur, de kosmos of historische onderwerpen. 
+            Mijn favoriete documentaires zijn: The Blue Planet, Life in the Undergrowth, Planet Earth, Frozen Planet, 
+            Cosmos: A Spacetime Odyssey, The Planets, The Hidden Life of Trees. De natuur fascineert mij niet alleen maar brengt mij ook 
+            tot rust. Ik hou ervan om prachtige boswandelingen te maken in de Ardennen of om de Noordzee te bezichtigen aan onze kust. 
+            Mijn droom is om ooit naar Nieuw-Zeeland te reizen en daar de beroemde Great Walks te doen.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Formule 1
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">Al sinds mijn kindertijd ben ik gefascineerd door snelle machines. Zo juichte ik voor 
+          de rode Ferrari van Michael Schumacher, speelde ik Gran Turismo op de PlayStation en ging ik regelmatig naar autoraces kijken 
+          op het circuit van Heuzden-Zolder. Na een lange pauze (sinds 2021 om precies te zijn) volg ik het hele F1-gebeuren terug nauw op de voet.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="col-md-3">&copy; 2024 Sem Jans. Alle rechten voorbehouden</div>
+      <div class="col-md"></div>
+      <div class="col-md-3">Sociale media: <a href="https://www.facebook.com/sem.jans.583" target="_blank"><i
+            class="bi-facebook"></i></a> <a href="https://www.instagram.com/sem.jns/" target="_blank"><i
+            class="bi-instagram"></i></a></div>
+    </div>
+  </div>
+  <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

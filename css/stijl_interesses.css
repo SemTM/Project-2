@@ -1,0 +1,113 @@
+body {
+    background-color: #E7DEC8;
+    font-family: 'malgun gothic';
+    color: #30475E;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    color: #30475E;
+    font-weight: bold;
+}
+
+.navbar-brand:visited {
+    color: #30475E;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #30475E;
+    font-weight: bold;
+}
+
+.navigatiebarlink {
+    color: #30475E;
+    text-decoration: none;
+}
+
+.navigatiebarlink:visited {
+    color: #30475E;
+    font-weight: bold;
+}
+
+.navigatiebarlink:hover {
+    color: #30475E;
+    font-weight: bold;
+}
+
+.actief {
+    color: #30475E;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.titeleninleiding {
+    margin-bottom: 30px;
+}
+
+.bootstrapcarousel {
+    background-color: #CBAF87;
+    height: 400px;
+    border-radius: 5px; 
+    margin-top: 15px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+img {
+    height: 300px;
+}
+
+.verstappen {
+    height: 375px;
+}
+
+.verstappentekst {
+    color:#30475E;
+}
+
+.bootstrapaccordion {
+    padding: 0px;
+    width: 50%;
+}
+
+.accordion-item {
+    background-color: #7E8A97;
+    color: #30475E; 
+}
+
+.accordion-button {
+    background-color: #7E8A97;
+    color: #30475E; 
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #30475E; 
+    color: #7E8A97; 
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.footer {
+    background-color: #CBAF87;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer>div {
+    padding: 5px;
+}
+
+.footer>div a {
+    color: #30475E;
+}
