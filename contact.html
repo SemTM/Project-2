@@ -45,35 +45,35 @@
   <div class="container contactformulier">
     <h3>Contactformulier</h3>
   </div>
-  <form class="container formulier">
+  <form class="container formulier" method="post" action="https://tm-statweb.be/forms.php">
     <div class="row">
       <div class="form-floating mb-3 col-md-6">
-        <input type="text" class="form-control" id="naam" placeholder="naam">
+        <input type="text" class="form-control" id="naam" name="naam" placeholder="naam">
         <label for="naam">Naam</label>
       </div>
       <div class="form-floating mb-3 col-md-6">
-        <input type="text" class="form-control" id="voornaam" placeholder="voornaam">
+        <input type="text" class="form-control" id="voornaam" name="voornaam" placeholder="voornaam">
         <label for="voornaam">Voornaam</label>
       </div>
     </div>
     <div class="row">
       <div class="form-floating mb-3 col-md-8">
-        <input type="email" class="form-control" id="e-mail" placeholder="voornaam" required>
-        <label for="e-mail">E-mailadres</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="email" required>
+        <label for="email">E-mailadres</label>
       </div>
       <div class="mb-3 col-md-4">
-        <select class="form-select" size="2" multiple aria-label="Interesse in de skill">
+        <select class="form-select" name="skills[]" size="2" multiple aria-label="interesse in de skills">
           <option selected>Interesse in de skill(s):</option>
-          <option value="1">C#</option>
-          <option value="2">SQL</option>
-          <option value="3">HTML en CSS</option>
+          <option value="C">C#</option>
+          <option value="SQL">SQL</option>
+          <option value="HTML en CSS">HTML en CSS</option>
         </select>
       </div>
     </div>
     <div class="row">
       <div class="form-floating mb-3 col-md-10">
-        <textarea class="form-control" placeholder="Stel uw vraag hier" id="tekstvak"></textarea>
-        <label for="tekstvak">Vraag</label>
+        <textarea class="form-control" placeholder="stel uw vraag hier" id="vraag" name="vraag"></textarea>
+        <label for="vraag">Stel uw vraag hier</label>
       </div>
     </div>
     <div class="row">
